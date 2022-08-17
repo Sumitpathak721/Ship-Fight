@@ -1,0 +1,65 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+background-color:#1767a0;}
+/* First intefrace section */
+#first_interface header{
+    height:60px;
+}
+#first_interface a{
+    text-decoration: none;
+    color:rgb(170, 127, 46);
+    font-size:70px;
+    font-family: "updock",cursive;
+    margin:0px 40px;
+    float:right;
+}
+#first_interface p{
+    text-align:center;
+    margin-top:10%;
+    font-size:70px;
+    color:rgb(170, 127, 46);
+    font-family: 'Rubik Distressed',cursive;
+    cursor:pointer;
+}
+#first_interface button{
+    color:white;
+    background-color: red;  
+    font-size:30px;
+    border-radius: 40px;
+    width:200px;
+    height: 70px;
+    margin-top:50px;
+    margin-left:43%;
+}
+/* second interface section */
+#second_interface{
+    display:none;
+    margin:0px;
+    padding:0px;
+    height:100%;
+}
+#second_interface img{
+    height:5rem;
+    position:relative;
+}
+#player{
+    position:relative;
+    top:450px;
+    width:100%;
+    z-index: 1;
+}
+#player img{
+    
+    left:570.172px;
+}
+.villen{
+    margin:5px 80px;
+}
+#score h2,#score h1{
+    display:inline;
+    color:white;
+    font-family: cursive;
+}
